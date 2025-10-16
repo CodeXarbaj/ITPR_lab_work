@@ -2,11 +2,12 @@
  * ----- otherwise find their difference -----*/
 
 import java .util.Scanner;
-public class AdditionAndDifference {
+public class AdditionAndDifference { //class for addition and diffrence
 
-	public static void main(String[] args) {
+	// main function
+	public static void main(String[] args) { 
 
-		int num1,num2;
+		int num1,num2; //Intialization of variables
 		//Creating object of scanner class
 		Scanner sc = new Scanner(System.in);
 		//Input of Numbers
@@ -17,7 +18,7 @@ public class AdditionAndDifference {
 		//Displaying number to the user
 		System.out.println("First No. : "+num1);
 		System.out.println("Second No. : "+num2);
-		if(num1<num2)
+		if(num1<num2) // Checking condition 
 		{
 			System.out.println("Sum : "+(num1+num2));
 		}
