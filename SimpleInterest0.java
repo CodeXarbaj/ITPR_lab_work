@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class InterestCalculator {   
-    private float principal, rate, result;
-    private int time;
+    private float principal, rate, result;//Intialized variable(private) 
+    private int time; 
     // Constructor to take input
     public InterestCalculator() {
         // creating object for taking input from keyboard
