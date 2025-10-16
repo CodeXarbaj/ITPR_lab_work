@@ -26,7 +26,7 @@ public class AdditionAndDifference { //class for addition and diffrence
 		{
 			System.out.println("Difference : "+(num1-num2));
 		}
-
+		sc.close();//closing sc object for avoid resource leak
 	}
 
 }
