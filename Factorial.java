@@ -16,7 +16,7 @@ public class Factorial {
         System.out.print("Give the number to find factorial: ");
         int n = sc.nextInt(); // here input is taken by user
          sc.close(); // close the sc object to avoid resource leak
-        if (n<0) {
+        if (n<0) {    
             System.out.println("Factorial for negative number is not possible");
         }
             else
