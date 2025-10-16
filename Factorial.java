@@ -1,6 +1,6 @@
 import java.util.Scanner;//Scanner class for creating object for input
 
-public class factorial {
+public class Factorial {
   //  method for calculating factorial of a number with taking parameter and return type 
     public static int fact_calculate(int n) {  
         int factorial = 1;  // start with 1    
